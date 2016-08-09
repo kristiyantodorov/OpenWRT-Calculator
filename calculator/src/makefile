@@ -13,7 +13,7 @@ OBJS=$(SOURCES:.c=.o)
 
 all: calculator
 
-server.o: calculator.c
+calculator.o: calculator.c
 	$(CC) -c -I $(INCLUDE_DIR) $(LDFLAGS) -o $@ $<
 
 %.o: %.c %.h
