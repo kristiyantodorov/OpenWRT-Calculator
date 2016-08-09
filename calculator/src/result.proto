@@ -1,0 +1,3 @@
+message Result {
+  required float result = 1;
+}
